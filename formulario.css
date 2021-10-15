@@ -1,0 +1,123 @@
+
+body {
+    font: 13px/1.85em 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    color: #888888;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    background: #4e4d4d;
+}
+
+.templatemo_contacttitle {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.logo{
+	margin: 0px;
+	margin-left: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1b203d;
+  overflow: hidden;
+  padding-top: 30px;
+}
+.menu{
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.logo1{
+  margin: 0px;
+  margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+    display: none;
+    cursor: pointer;
+}
+.menu1{
+  float: left;
+  display: none;
+}
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+}
+.sidenav a:hover {
+  color: #ffffff;
+  background-color:rgb(94, 94, 94);
+}
+.sidenav{
+ 
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+}
+#main {
+  padding: 16px;
+  margin-left: 300px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: #6c88be;
+}
+
+.templatemo_sub_contacttitle {
+    width: 100%;
+    font-size: 22px;
+    color: #16d125;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.templatemo_contact {
+    margin: 30px;
+    width: 100%;
+    margin-left: 15%;
+}
+
+.templatemo_contactform input, textarea {
+    width: 100%;
+    background: linear-gradient( #fff #000);
+    border: 1px solid #4d1399;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #FAFAFA;
+}
+
+.templatemo_contactform textarea {
+    height: 100px;
+}
+
+
+.templatemo_contactform .btn-primary {
+    background: #2bc30d;
+    border: none;
+    border-radius: 0px;
+    color: #0f00e0;
+    font-weight: 800;
+}
+
+.templatemo_contactform .btn-primary:hover {
+    background: #21daca;
+}

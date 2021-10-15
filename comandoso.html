@@ -1,0 +1,148 @@
+<!Doctype HTML>
+<html>
+<head>
+	<title>Comandos GenosX</title>
+	<link rel="stylesheet" href="comandoso.css" type="text/css"/>
+	<link rel="shortcut icon" href="imagenes/stars2" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+	
+	<div id="mySidenav" class="sidenav">
+	<p class="logo">(g-)GenosX<span class="menu">&#9776;</span></p>
+	<p class="logo1"> <span class="menu1">&#9776;</span></p>
+  <a href="./index.html" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Inicio</a>
+  <a href="./dashboardo.html"class="icon-a"><i class="fa fa-pie-chart icons"></i> &nbsp;&nbsp;Home</a>
+  <a href="./comandoso.html"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Comandos</a>
+  <a href="#"class="icon-a"><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Soporte</a>
+  <a href="./invitaro.html"class="icon-a" target="blank"><i class="fa fa-tasks icons"></i> &nbsp;&nbsp;Invitar</a>
+  <a href="./comandos.html"class="icon-a"><i class="fa fa-circle icons"></i> &nbsp;&nbsp;Modo claro</a>
+
+</div>
+<div id="main">
+
+	<div class="head">
+		<div class="col-div-6">
+<p class="nav"></p>
+
+</div>
+
+	
+
+
+
+
+<section class="continer">
+ 
+  <input type="search" class="table-filter" data-table="order-table" placeholder="Filter" id="Filter">
+  <br/><br/>
+
+  <table class="order-table table">
+      <thead>
+          <tr>
+              <th>Nombre</th>
+              <th>Alias</th>
+              <th>Sección</th>
+              <th>Descripcion</th>
+              <th>Como usar</th>
+          </tr>
+  </thead>
+    <tbody>
+      <tr>
+          <td>bandanger</td>
+          <td>bp</td>
+          <td>Administración</td>
+          <td>Banear a todos los usuarios registrados como peligrosos.</td>
+          <td>Poner el comando y automatiamente baneara a todos los usuarios registrados.(solo lo puede ocupar el owner de el servidor)</td>
+      </tr>
+      <tr>
+          <td>createmuterole</td>
+          <td>cm</td>
+          <td>Adiministración</td>
+          <td>Crear un rol mute ya configurado.</td>
+          <td>Poner el comando ya automaticamente creara el rol de mute.</td>
+          
+          
+      </tr>
+      <tr>
+          <td>setwelcome</td>
+          <td>sw</td>
+          <td>Administración</td>
+          <td>Establecer el sistema de Bienvenidas.</td>
+          <td>Poner el comando g-setwelcome "canal en el que se estableceran las bienvenidas" "rol que desea que de el bot cuando entre el usuario."(el rol debe ser menor al del bot si no no funcionara)</td>
+          
+      </tr>
+      <tr>
+        <td>delwelcome</td>
+        <td>dw</td>
+        <td>Administración</td>
+        <td>Eliminar el sistema de Bienvenidas</td>
+        <td>Poner el comando y automaticamete se eliminara el sistema de bienvenidas</td>
+      </tr>
+      <tr>
+        <td>raider</td>
+        <td>scan</td>
+        <td>Administración</td>
+        <td>Escanear si hay algun usuario malicioso en el servidor</td>
+        <td>Poner el comando y automaticamente escaneara si hay algun usuario malicioso</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+  $(".menu").click(function(){
+    $("#mySidenav").css('width','70px');
+    $("#main").css('margin-left','70px');
+    $(".logo").css('display', 'none');
+    $(".logo1").css('display','block');
+    $(".logo span").css('visibility', 'visible');
+     $(".logo span").css('margin-left', '-10px');
+     $(".icon-a").css('visibility', 'hidden');
+     $(".icon-a").css('height', '25px');
+     $(".icons").css('visibility', 'visible');
+     $(".icons").css('margin-left', '-8px');
+      $(".menu1").css('display','block');
+      $(".menu").css('display','none');
+  });
+
+$(".menu1").click(function(){
+    $("#mySidenav").css('width','300px');
+    $("#main").css('margin-left','300px');
+    $(".logo").css('visibility', 'visible');
+    $(".logo").css('display','block');
+     $(".icon-a").css('visibility', 'visible');
+     $(".icons").css('visibility', 'visible');
+     $(".menu").css('display','block');
+      $(".menu1").css('display','none');
+ });
+
+</script>
+<script>
+$(document).ready(function(){
+  $(".profile p").click(function(){
+    $(".profile-div").toggle();
+    
+  });
+  $(".noti-icon").click(function(){
+    $(".notification-div").toggle();
+  });
+
+
+
+  
+});
+</script>
+<script src="comandos.js"></script>
+</body>
+
+
+</html>
+

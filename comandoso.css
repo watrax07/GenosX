@@ -1,0 +1,112 @@
+body{
+    height: 300vh;
+    background: #272c4a;
+      padding: 0px;
+    
+      font-family: system-ui;
+    }
+
+.logo{
+	margin: 0px;
+	margin-left: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1b203d;
+  overflow: hidden;
+  padding-top: 30px;
+}
+.menu{
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.logo1{
+  margin: 0px;
+  margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+    display: none;
+    cursor: pointer;
+}
+.menu1{
+  float: left;
+  display: none;
+}
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+}
+.sidenav a:hover {
+  color: #ffffff;
+  background-color:rgb(94, 94, 94);
+}
+.sidenav{
+ 
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+}
+#main {
+  padding: 16px;
+  margin-left: 300px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: #6c88be;
+}
+
+
+
+header ul li a:hover , 
+header ul li a.active
+{
+    background: linear-gradient(#f0f0f0, #d400d4);
+    color: #2b1055;
+}  
+h2{
+    text-align: center;
+    margin: 80px 0px;
+    color: white;
+}
+th{
+    text-align: center;
+    background: #1b203d;
+    color: white;
+    border:1px solid black;
+    padding: 2.5px!important;
+}
+
+td{
+    text-align: center;
+    padding: 15px;
+    background: #2f365c;
+    border:1.5px solid #742bc7;
+    color: #fff;
+}
+.table>thead>tr>th{
+    vertical-align: bottom;
+    border:2px solid #522291!important;
+    
+}
+input[type="search"]{
+    padding: 10px!important;
+    width: 100%!important;
+    outline: none!important;
+    border: none;
+}
